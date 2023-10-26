@@ -11,7 +11,7 @@ dotenv.config();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'https://badic.lacravata.ro/', // Specify the origin(s) that are allowed to access the server
+  origin: 'https://badic.lacravata.ro', // Specify the origin(s) that are allowed to access the server
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Specify the HTTP methods allowed
   allowedHeaders: ['Content-Type', 'Authorization'], // Specify the allowed headers
 };
