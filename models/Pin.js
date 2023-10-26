@@ -22,10 +22,6 @@ const PinSchema = new mongoose.Schema(
       min: 0,
       max: 5,
     },
-    linkTo: {
-      type: String,
-      required: true,
-    },
     lat: {
       type: Number,
       required: true,
