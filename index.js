@@ -11,9 +11,9 @@ dotenv.config();
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // Specify the origin(s) that are allowed to access the server
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Specify the HTTP methods allowed
-  allowedHeaders: ['Content-Type', 'Authorization'], // Specify the allowed headers
+  origin: "http://localhost:3000/", // Specify the origin(s) that are allowed to access the server
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Specify the HTTP methods allowed
+  allowedHeaders: ["Content-Type", "Authorization"], // Specify the allowed headers
 };
 
 app.use(cors(corsOptions));
